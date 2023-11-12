@@ -1,11 +1,11 @@
 import './App.css'
-import Mainpage from './pages/Mainpage'
+import Homepage from './pages/Homepage'
 
 function App() {
 
   return (
     <div>
-      <Mainpage />
+      <Homepage />
     </div>
   )
 }
