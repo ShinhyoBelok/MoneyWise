@@ -16,7 +16,7 @@ const opportunitiesSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder
-      .addCase(getHouses.fulfilled, (state, action) => (action.payload))
+      .addCase(getOpportunities.fulfilled, (state, action) => (action.payload))
   },
 });
 

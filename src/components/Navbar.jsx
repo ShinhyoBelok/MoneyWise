@@ -1,9 +1,10 @@
 import React from 'react'
+import './style/navbar.css'
 
 export default function Navbar() {
   return (
     <nav>
-      <h1>MoneyWise</h1>
+      <h2>MoneyWise</h2>
       <ul>
         <li><a href="#">Soluciones</a></li>
         <li><a href="#">Productos</a></li>
