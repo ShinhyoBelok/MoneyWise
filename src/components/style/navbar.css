@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 nav {
   justify-content: space-between;
-  padding: 0 2rem;
-  padding-bottom: 1rem;
+  align-items: center;
+  padding: 1rem 2rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.308);
+  min-height: 10vh;
 }
 
 nav h2 {

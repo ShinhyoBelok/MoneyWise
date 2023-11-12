@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import './style/navbar.css'
 
 export default function Navbar() {
@@ -8,7 +9,7 @@ export default function Navbar() {
       <ul className='flexbox'>
         <li><a href="#">Soluciones</a></li>
         <li><a href="#">Productos</a></li>
-        <li><a href="#">Oportunidades</a></li>
+        <li><NavLink to="/oportunidades">Oportunidades</NavLink></li>
         <li><a href="#">Precios</a></li>
       </ul>
       <div className="sessionBtn flexbox">

@@ -1,11 +1,10 @@
 .main_page_container {
-  background-color: var(--background-color);
   color: white;
-  min-height: 100vh;
   padding: 2rem;
   padding-bottom: 4rem;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 90vh;
 }
 
 .topSection {

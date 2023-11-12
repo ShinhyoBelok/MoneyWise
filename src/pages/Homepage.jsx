@@ -1,16 +1,15 @@
 import React from 'react'
 import './styles/homepage.css';
-import Navbar from '../components/Navbar';
-
 
 export default function Mainpage() {
   return (
     <div className='main_page_container flexbox'>
-      <Navbar />
       <section className="topSection flexbox">
         <div className="motto">
           <h4 className="phrase">No más licitaciones perdidas, ahora puedes encontrar las ideales en un solo lugar</h4>
-          <h1>Encuentra oportunidades de licitación al alcance de tu empresa</h1>
+          <h1>
+            Encuentra oportunidades de licitación al alcance de tu empresa
+          </h1>
         </div>
         <div className="action">
           <p>Olvídate de buscar entre cientos de licitaciones, nosotros encontramos las mejores para ti.</p>

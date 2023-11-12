@@ -3,6 +3,7 @@
   --logo-green: #32ac42;;
   --background-color: #121212; 
   --btn-bg-color: #a455ff;
+  background-color: var(--background-color);
 }
 
 * {
@@ -27,4 +28,10 @@ li {
 
 .flexbox {
   display: flex;
+}
+
+.appContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
