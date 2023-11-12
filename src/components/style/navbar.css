@@ -1,7 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+nav {
+  justify-content: space-between;
+  padding: 0 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.308);
+}
 
 nav h2 {
   font-family: 'Dancing Script', sans-serif;
   font-size: 2.5rem;
-  color: #32ac42;
+  color: var(--logo-green);
+}
+
+ul {
+  align-items: center;
+  gap: 1.5rem;
+}
+
+ul li a {
+  color: white;
+}
+
+.sessionBtn {
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btnLS {
+  padding: 0.4rem;
+  font-weight: 700;
+  background: none;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.btnLS a {
+  color: white;
+}
+
+.signupBtn {
+  background-color: var(--btn-bg-color);
+}
+
+.btnLS:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }

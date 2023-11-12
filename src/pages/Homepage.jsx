@@ -5,23 +5,23 @@ import Navbar from '../components/Navbar';
 
 export default function Mainpage() {
   return (
-    <div className='main_page_container'>
+    <div className='main_page_container flexbox'>
       <Navbar />
-      <section className="top">
+      <section className="topSection flexbox">
         <div className="motto">
-          <p className="phrase">No más licitaciones perdidas, ahora puedes encontrar las ideales en un solo lugar</p>
+          <h4 className="phrase">No más licitaciones perdidas, ahora puedes encontrar las ideales en un solo lugar</h4>
           <h1>Encuentra oportunidades de licitación al alcance de tu empresa</h1>
         </div>
         <div className="action">
           <p>Olvídate de buscar entre cientos de licitaciones, nosotros encontramos las mejores para ti.</p>
-          <button>Registrarse</button>
+          <button className='btnLS signupBtn'><a href="#">Ver recomendaciones</a></button>
         </div>
       </section>
-      <section className="bottom">
-        <img src="" alt="img-web-frame" />
-        <img src="" alt="img-web-frame" />
-        <img src="" alt="img-web-frame" />
-        <img src="" alt="img-web-frame" />
+      <section className="bottomSection flexbox">
+        <img src="src\assets\img1.png" alt="img-web-frame" />
+        <img src="src\assets\img2.png" alt="img-web-frame" />
+        <img src="src\assets\img1.png" alt="img-web-frame" />
+        <img src="src\assets\img2.png" alt="img-web-frame" />
       </section>
     </div>
   )

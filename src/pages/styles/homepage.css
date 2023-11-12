@@ -1,5 +1,49 @@
 .main_page_container {
-  background-color: #121212;
+  background-color: var(--background-color);
   color: white;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topSection {
+  margin: 0 2rem;
+  gap: 5%;
+  align-items: center;
+}
+
+.motto {
+  flex-grow: 1;
+  width: 55%;
+}
+
+.action {
+  flex-grow: 1;
+  width: 30%;
+}
+
+.phrase {
+  color: var(--btn-bg-color);
+  width: 70%;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.action p {
+  margin-bottom: 1rem;
+}
+
+.bottomSection {
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.bottomSection img {
+  border-radius: 0.5rem;
 }
